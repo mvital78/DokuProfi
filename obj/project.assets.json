@@ -5507,17 +5507,17 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "YkdJ5bsgmf+LpDqzDvBbqIP+30lgS1035eEQkz2LLIPkQeoEahXPd0RwRYw5kyXsFANcFfkuafM3liEDQ67+CQ==",
+      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
+        "Microsoft.CodeAnalysis.Analyzers.1.1.0.nupkg.sha512",
+        "Microsoft.CodeAnalysis.Analyzers.nuspec",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll",
-        "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
-        "microsoft.codeanalysis.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -8713,7 +8713,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "XWctUs/1ZGs1dkPEW9qnD8Zs7Ko+dnh8xGC/d6ZS/xGwKKsDQ5K03FTMCJ83Q1I5wHGn9ZzAAN1FwXaB1RKEaA==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -11500,29 +11500,31 @@
     ]
   },
   "packageFolders": {
-    "/home/mvital78/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Vitali\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mvital78/DokuProfi/DokuProfi.csproj",
+      "projectUniqueName": "c:\\Users\\Vitali\\Documents\\repos\\DokuProfi\\DokuProfi\\DokuProfi.csproj",
       "projectName": "DokuProfi",
-      "projectPath": "/home/mvital78/DokuProfi/DokuProfi.csproj",
-      "packagesPath": "/home/mvital78/.nuget/packages/",
-      "outputPath": "/home/mvital78/DokuProfi/obj/",
+      "projectPath": "c:\\Users\\Vitali\\Documents\\repos\\DokuProfi\\DokuProfi\\DokuProfi.csproj",
+      "packagesPath": "C:\\Users\\Vitali\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Vitali\\Documents\\repos\\DokuProfi\\DokuProfi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/mvital78/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Vitali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
